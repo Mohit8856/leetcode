@@ -1,4 +1,4 @@
-def isHappy(self, n):
+def isHappy( n):
         seen = set()
 
         while n != 1:
@@ -7,5 +7,6 @@ def isHappy(self, n):
             seen.add(n)
 
             n = sum(int(digit) ** 2 for digit in str(n))
+
 
         return True
