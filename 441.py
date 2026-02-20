@@ -4,6 +4,7 @@ i = 1 # initialization
 while n >= i : #codition
             n = n-i 
             i +=1# updation
-print(i-1)
+return i-1
+
 
 
