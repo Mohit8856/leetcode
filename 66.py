@@ -1,3 +1,5 @@
+# to run this code in vs code just copy it and call the function 
+# to use this code in leet code diretly you just do ctrl-c to ctrl-v
 def plusOne(self, digits):
     
         n = len(digits)
@@ -12,4 +14,5 @@ def plusOne(self, digits):
 
        
        
+
         return [1] + digits    
