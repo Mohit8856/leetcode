@@ -1,5 +1,5 @@
-left = 1
-right = 22
+left = 1 # testing variable for the code . if you wnat to use this code directly on the leet code , remove it  before running in leetcode
+right = 22 # testing variable for the code . if you wnat to use this code directly on the leet code , remove it  before running in leetcode
 lst = []
 
 for i in range(left, right + 1):
@@ -7,7 +7,7 @@ for i in range(left, right + 1):
         lst.append(i)
     else:
         a = str(i)
-        valid = True   
+        valid = True  #  we use it to insure that the number is divisble by itself completly and also insure to not repeat the number in the list 
 
         for j in a:
             k = int(j)
@@ -16,7 +16,8 @@ for i in range(left, right + 1):
                 valid = False
                 break
 
-        if valid:
+        if valid: 
             lst.append(i)
 
-print(lst)
+print(lst) # change print with return while using in leetcode 
+
