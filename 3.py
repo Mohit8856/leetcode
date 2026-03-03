@@ -1,4 +1,4 @@
-def lengthOfLongestSubstring(self, s: str) -> int:
+def lengthOfLongestSubstring(self, s: str) # defining the function 
         left = 0
         seen = set()
         max_len = 0
@@ -13,3 +13,4 @@ def lengthOfLongestSubstring(self, s: str) -> int:
         
         return max_len
     
+
