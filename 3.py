@@ -12,5 +12,6 @@ def lengthOfLongestSubstring(self, s: str) # defining the function
             max_len = max(max_len, right - left + 1)
         
         return max_len
-    
+    # to use this code in vs code you can directly do ctrl-c to ctrl-v 
+
 
