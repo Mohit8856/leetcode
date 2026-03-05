@@ -22,4 +22,6 @@ def isMatch(s, p):
                 if p[j-2] == s[i-1] or p[j-2] == ".":
                     dp[i][j] = dp[i][j] or dp[i-1][j]
 
+
     return dp[m][n]
+    # above code is perfect in space complexity but not sufficient in time complexity   
