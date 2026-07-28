@@ -12,3 +12,4 @@ class Solution(object):
                 num %= value
 
         return "".join(result)
+        # this code is written with using for loop , it may be done with some other meathods , its tome complexity is - 2mlS
