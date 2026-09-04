@@ -1,10 +1,16 @@
-s = "pwwkew"
-s1 = []
-s2 = []
-n = 0
-for i in range (n , len(s)):
-    if i in s1:
-        n += 1
-        pass
-    else :
-        s1.append(i)    
+
+def lengthOfLongestSubstring(self, s: str) -> int:
+        left = 0
+        seen = set()
+        max_len = 0
+        
+        for right in range(len(s)):
+            while s[right] in seen:
+                seen.remove(s[left])
+                left += 1
+            
+            seen.add(s[right])
+            max_len = max(max_len, right - left + 1)
+        
+        return max_len
+
