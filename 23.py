@@ -1,4 +1,4 @@
-# Definition for singly-linked list.
+# this code iis written by taking the time complexity as the priorty , it can be improved , by some other factor
 # class ListNode(object):
 #     def __init__(self, val=0, next=None):
 #         self.val = val
